@@ -54,9 +54,12 @@ Ensure the following packages are installed:
 ````
 
 ## **Sample Data**
-1-The dataset EVSE-A-idle-vulnerability-scan.csv is included in the data directory.
-2-This dataset is automatically loaded when the script is executed.
-3-To use your own dataset, replace the file in the data directory and ensure it follows the same format.
+- The dataset `EVSE-A-idle-vulnerability-scan.csv` is included in the `data` directory.
+- This dataset is automatically loaded when the script is executed.
+- To use your own dataset:
+  1. Replace the `EVSE-A-idle-vulnerability-scan.csv` file in the `data` directory with your dataset.
+  2. Ensure your dataset follows the same format (column names and structure).
+
 
 
 
@@ -74,20 +77,4 @@ Ensure the following packages are installed:
      - **Precision**: 100%
      - **Recall**: 100%
      - **F1-Score**: 100%
-
-## Limitations and Future Work
-- **Class Imbalance**:
-  - Dataset includes only one class, limiting generalization.
-  - SMOTE or similar techniques recommended for future work.
-- **Dimensionality Reduction**:
-  - PCA or similar techniques could optimize feature space.
-
-
-
-
-
-
-
-
-
 
