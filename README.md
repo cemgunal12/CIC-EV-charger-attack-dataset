@@ -34,27 +34,7 @@ Ensure the following packages are installed:
 ```bash
 python dataset.py
 
-### **Key Analysis Steps**
-1. **Preprocessing**:
-   - Missing values handled using mean for numeric and mode for categorical features.
-   - Categorical data encoded using `LabelEncoder`.
 
-2. **EDA**:
-   - Generated visualizations: histograms, correlation matrix, and boxplots.
-
-3. **Model Training and Evaluation**:
-   - Random Forest was selected for classification.
-   - Achieved metrics:
-     - **Precision**: 100%
-     - **Recall**: 100%
-     - **F1-Score**: 100%
-
-## Limitations and Future Work
-- **Class Imbalance**:
-  - Dataset includes only one class, limiting generalization.
-  - SMOTE or similar techniques recommended for future work.
-- **Dimensionality Reduction**:
-  - PCA or similar techniques could optimize feature space.
 
 
 
