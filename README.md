@@ -34,7 +34,7 @@ Ensure the following packages are installed:
 ```bash
 python dataset.py
 
-## Key Analysis Steps
+### **Key Analysis Steps**
 1. **Preprocessing**:
    - Missing values handled using mean for numeric and mode for categorical features.
    - Categorical data encoded using `LabelEncoder`.
