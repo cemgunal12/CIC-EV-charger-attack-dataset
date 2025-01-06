@@ -53,7 +53,7 @@ Ensure the following packages are installed:
    python dataset
 ````
 
-##Sample Data
+## **Sample Data**
 -The dataset EVSE-A-idle-vulnerability-scan.csv is included in the data directory.
 -This dataset is automatically loaded when the script is executed.
 -To use your own dataset, replace the file in the data directory and ensure it follows the same format.
