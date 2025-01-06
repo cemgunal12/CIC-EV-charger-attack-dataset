@@ -14,5 +14,18 @@ This project analyzes the EVSE-A Idle Vulnerability Scan dataset using data mini
 
 ---
 
-## **Directory Structure**
-├── data │ └── EVSE-A-idle-vulnerability-scan.csv # Dataset used for analysis ├── dataset.py # Python script for preprocessing, EDA, and modeling ├── README.md # Project documentation └── results ├── feature_importance.png # Feature importance visualization └── confusion_matrix.png # Confusion matrix visualization
+## **Setup and Installation**
+### **Prerequisites**
+Ensure the following packages are installed:
+- Python 3.8+
+- Pandas
+- Scikit-learn
+- Seaborn
+- Matplotlib
+- Imbalanced-learn
+
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/evse-dataset-analysis.git
+   cd evse-dataset-analysis
