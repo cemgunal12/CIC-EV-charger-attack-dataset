@@ -1,4 +1,8 @@
 # CIC-EV-charger-attack-dataset
+Sena Bilgin 210408023
+Cem Günal 210408036
+Efe Yaşar 210408030
+
 # EVSE-A Idle Vulnerability Scan Dataset Analysis
 
 This project analyzes the EVSE-A Idle Vulnerability Scan dataset using data mining and machine learning techniques to detect and classify security vulnerabilities.
