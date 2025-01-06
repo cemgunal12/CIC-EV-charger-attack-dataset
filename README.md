@@ -14,11 +14,12 @@ This project analyzes the EVSE-A Idle Vulnerability Scan dataset using data mini
 
 ---
 
-## **Directory Structure**
+## Directory Structure
 ├── data
-│   └── EVSE-A-idle-vulnerability-scan.csv # Dataset used for analysis
-├── dataset.py                             # Python script for preprocessing, EDA, and modeling
-├── README.md                              # Project documentation
+│   └── EVSE-A-idle-vulnerability-scan.csv  # Dataset used for analysis
+├── dataset.py                              # Python script for preprocessing, EDA, and modeling
+├── README.md                               # Project documentation
+
 
 
 
