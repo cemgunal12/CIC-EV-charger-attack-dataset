@@ -42,11 +42,23 @@ Ensure the following packages are installed:
    ```bash
    git clone https://github.com/yourusername/evse-dataset-analysis.git
    cd evse-dataset-analysis
+   ````
+   2. Install dependencies
+   ````bash
+    pip install -r requirements.txt
+
 
 ### **EXECUTION**
    ```bash
    python dataset
 ````
+
+##Sample Data
+-The dataset EVSE-A-idle-vulnerability-scan.csv is included in the data directory.
+-This dataset is automatically loaded when the script is executed.
+-To use your own dataset, replace the file in the data directory and ensure it follows the same format.
+
+
 
 ## Key Analysis Steps
 1. **Preprocessing**:
